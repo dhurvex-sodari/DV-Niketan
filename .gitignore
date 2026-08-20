@@ -1,0 +1,20 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local database configuration
+config/database.php
+
+# Sensitive database/admin utility scripts
+init_db.php
+reset_db.php
+update_pass.php
+
+# Logs
+*.log
+
+# Temporary files
+uploads/temp/*
+
+tests/verify_all.php
